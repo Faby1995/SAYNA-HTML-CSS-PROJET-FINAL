@@ -1,4 +1,5 @@
 
+/* header-start*/
 header{
     height: 10vh;
     background-color:  #d35649;
@@ -10,18 +11,39 @@ header div{
 }
  header > div a{
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
  }
+ 
  header > div img{
      width: 40%;
  } 
+ header .col-1 a:hover{
+    color: var(--primary-gray);
+    transition: 0.2s;
+    text-decoration: none;   
+ } 
+ header nav li a{ 
+     color: white;
+     text-decoration: none;
+     transition: 0.2s;
+     margin: 1em 0;
+     padding: 11%;
+     font-size: 16px;
+ }
+ header nav li a:hover{
+    color: var(--primary-gray);
+    transition: 0.2s;
+ }
+/*header-end*/
+ /* main-about-start*/
  main {
 margin: 5% 2%;
  }
  main  section{
      margin: -1%;
-     box-shadow: 5px 5px 25px;
+     padding: 1%;
+     box-shadow: 1px -12px 9px;
  }
  main > section .titre{
      text-align: center;
@@ -37,4 +59,61 @@ section .row > .col-4 p{
 }
 section .row > .col-4 p span{
      color:  #509bd7;
+}
+.btn-primary {
+    float: right;
+    border-radius: 0;
+    margin: 15%
+}
+main .details {
+    border-top: 6px solid rgb(130, 127, 127);
+    border-left: 6px solid #eee;
+    border-right: 6px solid #eee;
+    margin: 1% -1% 0% -1%;
+    padding: 4% 0 0 0;
+}
+.details .row{
+    background-color:#eee;
+    height: 7vh;
+    width: 99%;
+    margin: 1% ;
+    padding: 1%;
+}
+.map_direction{
+    text-align: center;
+    color: #d35649;
+}
+/* main-about-end*/
+
+/*footer start */
+footer{
+  
+    background-color: black;
+    margin: 1%;
+}
+.form-email{
+    width: 70%;
+    background-color: black;
+}
+.button-footer{
+ width: 19%;
+ height: 5vh; 
+ color: white; 
+ background-color: rgb(89, 88, 88); 
+ margin: -1%;
+}
+.block1{
+   
+    margin: 1% -6% 0% 11%;
+}
+.block2{
+    margin: 1% -55% 1% 17%;
+}
+.block3{
+    margin: 1% -9% 0% 68%;
+
+}
+.justify-content-center div .text-footer{
+    color: white;
+    text-align: center;
 }

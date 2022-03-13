@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./Assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Assets/style.css">
     <title>About</title>
@@ -12,14 +13,14 @@
    <header class="container-fluid">
         <div class="col-1">
             <i><img src="./Assets/Images/group-2.svg" alt="logo"></i>
-            <a href="">[Events]</a>
+            <a href="index.html">[Events]</a>
         </div>
         <nav>   
-            <ul class="nav justify-content-end "> 
-                <li>search</li>
-                <li>About</li>
-                <li>Blog</li>
-                <li>More</li>
+            <ul class="col-11 nav justify-content-end "> 
+                <li><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i>search</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-user"></i>About</a></li>
+                <li><a href=""><i class="fa-solid fa-rss"></i>Blog</a></li>
+                <li><a href=""><i class="fa-solid fa-bars"></i>More</a></li>
             </ul>
         </nav>
    </header>
@@ -47,11 +48,89 @@
                 <p>Daytime: <span>Daylight</span></p >
             </div>
             </div>
-               
+            <div class="row">
+                <div class="col-12">
+                <button type="button" class="btn btn-primary btn-lg"><i></i>Apply</button>
+               </div>
+            </div> 
+                       <div class="d-flex justify-content-around">
+                           <p><i class="fa-solid fa-phone" style="color: rgb(0, 153, 255);"></i>Tel: XXXX-XXXX</p> 
+                            <p><i class="fa-solid fa-user-plus"style="color: rgb(0, 153, 255);"></i>Bring+1</p>
+                            <p><i class="fa-solid fa-sun"style="color: rgb(0, 153, 255);"></i>Day</p>
+                            <p><i class="fa-solid fa-user-shield"style="color: rgb(0, 153, 255)";></i>Host Verified </p>
+                            <p><i class="fa-solid fa-bus"style="color: rgb(0, 153, 255);"></i>Your Way </p>
+                            <p><i class="fa-regular fa-money-bill-1"style="color: rgb(0, 153, 255);"></i>Not Required</p>
+                        </div>
        </section>
-        
-        
-       </section>
+
+       
+       <div class="details "> 
+           
+           <div class="row col-12 ">
+            <p><img src="/Assets/Icones/moredetails_icon.svg" alt="plus de details" style="height: 2%;" >CLICK TO VIEW MORE DETAILS</p>
+           </div>
+        <div class="map_direction">
+            <p><i><img src="./Assets/Icones/map_icon.svg" alt="icone map" style="height: 25px; stroke: black; fill: #d35649;"></i>MAP DIRECTIONS</p>
+        </div>
+        <div class="" style="width: 100%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14579.143558716292!2d-46.42970128315544!3d-24.003336741229205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1d00114834dd%3A0xd9331312b249a764!2sPraia%20Grande%20-%20%C3%89tat%20de%20S%C3%A3o%20Paulo%2C%20Br%C3%A9sil!5e0!3m2!1sfr!2smg!4v1647194121098!5m2!1sfr!2smg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    
    </main>
+   <footer>
+       <section class="container-fluid fond ">
+        <div class="row">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a  class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">SEARCH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">ADVERTISE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">FACEBOOK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">TWITTER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="">INSTAGRAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">BLOG</a>
+                </li>
+            </ul>
+        </div>
+        <div class=" d-flex justify-content-center">
+            <div class="block1">
+            <p class="text-footer">Subscribe</p>
+            <input class="form-email" type="text" placeholder="Insert your e-mail here">
+            <button class="button-footer">send</button>
+            </div>
+           <div class="block2">
+            <p class="text-footer">Contact </p>
+            <p>Have a question or suggestion ?</p>
+            <p>contact@Events.com</p>
+           </div>
+           <div class="block3">
+               <p class="text-footer">About</p>
+               <p>[Events] is an online plateform that works to 
+                   improve <br>and increase social
+                   life connections, 
+                   when this nightmare that we are crently living 
+                   in is over learn more.
+               </p>
+           </div>
+        </div> 
+
+       </section>
+   </footer>
 </body>
 </html>
