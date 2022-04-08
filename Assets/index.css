@@ -1,0 +1,30 @@
+:root{
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+.fond-image{
+    background-image: url('Images/group-1.jpg');
+    height: 20em;
+    background-size: 1350px 470px;
+}
+
+.fond-image2{
+background-color: white;
+opacity: 0.7;
+}
+.fond-image3{
+    background-color: var(--light-gray);
+}
+.bouton3{
+background-color: var(--primary-color);
+border: 0;
+color: white;
+}
+.near-you{
+    background-color: var(--primary-color);
+}

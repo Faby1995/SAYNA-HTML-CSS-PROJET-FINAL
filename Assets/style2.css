@@ -1,0 +1,52 @@
+:root{
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+
+body{
+    overflow-x: hidden;
+}
+header.header-menu-background{
+    background-color: var(--primary-color);
+}
+
+ .primary-color{
+     color: var(--primary-color);
+ }
+
+section .container-fluid .gray-details{
+    background-color: var(--light-gray);
+}
+
+footer .footer-1{
+    background-color: var(--gray-footer);
+}
+
+.localisation-circle{
+    margin-bottom: 1%;
+}
+
+footer .footer-2{
+    background-color: var(--gray-footer-btn);
+}
+span{
+    color: var(--primary-blue);
+}
+.email{
+    background-color: var(--gray-footer);
+}
+.bouton1{
+    border-radius: 0;
+    border-color: var(--primary-blue);
+    background-color: var(--primary-blue);
+}
+.bouton2{
+    background-color: var(--gray-footer-btn);
+    border-color: var(--gray-footer-btn);
+}
+
